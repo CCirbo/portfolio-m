@@ -7,7 +7,9 @@ layout: default
   {% include horizontal_list.html collection=site.data.home.navbar_entries %}
   <div class="dashed"></div>
 {% endif %}
-
+<header class="header-section">
+  <div class="profile-section">
+    <img src="{{ site.profile_img }}" alt="Profile Picture" class="profile-img">
   <h1>{{ site.title }}</h1>
   {% if site.theme_config.show_description == true %}
     <p>{{ site.description }}</p>
