@@ -2,7 +2,7 @@ navbar_entries:
   - title: about
     url: about
 
-  - title: resume
+  - title: previous work
     url: blog
 
   # - title: website
